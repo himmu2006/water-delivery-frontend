@@ -4,8 +4,8 @@ import { AuthContext } from '../context/AuthContext';
 import OrderTable from '../components/OrderTable';
 import ProfileSection from '../components/ProfileSection';
 import SettingsSection from '../components/SettingsSection';
-import { toast } from 'react-toastify'; // ✅ Toast import
-import { socket } from '../utils/Socket';
+import { toast } from 'react-toastify';
+import { socket } from '../utils/socket';
 
 const SupplierDashboard = () => {
   const { user } = useContext(AuthContext);
