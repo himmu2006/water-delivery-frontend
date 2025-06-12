@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import OrdersSection from '../components/OrdersSection';
 import OrderHistorySection from '../components/OrderHistorySection';
 import CreateOrder from '../components/CreateOrder';
-import Sidebar from '../components/SideBar';
+import Sidebar from '../components/Sidebar';
 import ProfileSection from '../components/ProfileSection';
 import SettingsSection from '../components/SettingsSection';
 
