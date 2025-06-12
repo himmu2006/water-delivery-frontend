@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',  // Update if your backend URL changes
+  baseURL: 'https://water-delivery-backend-ro9b.onrender.com/api',  // Update if your backend URL changes
 });
 
 // Add JWT token automatically from localStorage to Authorization header for every request
